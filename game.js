@@ -3,33 +3,7 @@ let game = {
     lockMode: false,
     firstCard: null,
     secondCard:  null,
-
-    // TECNOLOGIAS PROGRAMAÇÃO
-    // techs: ['/tecnologias/bootstrap',
-    //          '/tecnologias/css',
-    //          '/tecnologias/electron',
-    //          '/tecnologias/firebase',
-    //          '/tecnologias/html',
-    //          '/tecnologias/javascript',
-    //          '/tecnologias/jquery',
-    //          '/tecnologias/mongo',
-    //          '/tecnologias/node',
-    //          '/tecnologias/react'],
-
     techs: [],
-
-    // ANIMAIS
-    // animals: ['/animais/leao',
-    //          '/animais/cobra',
-    //          '/animais/onca',
-    //          '/animais/baleia',
-    //          '/animais/cachorro',
-    //          '/animais/gato',
-    //          '/animais/galinha',
-    //          '/animais/elefante',
-    //          '/animais/macaco',
-    //          '/animais/urso'],
-
     cards: null,
   
     setCard: function(id) {
@@ -115,3 +89,4 @@ let game = {
         }
     }
 }
+
