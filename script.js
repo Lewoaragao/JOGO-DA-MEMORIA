@@ -161,6 +161,21 @@ function verificaSelecionado(tipoSelecionado) {
 
             startGame()
             break
+
+        case 'famosos':
+            game.techs = ['/famosos/caua-reymond',
+                '/famosos/paola-bracho',
+                '/famosos/mc-kevinho',
+                '/famosos/steve-carell',
+                '/famosos/will-smith',
+                '/famosos/xuxa',
+                '/famosos/ivete-sangalo',
+                '/famosos/claudia-leitte',
+                '/famosos/kim-seon-ho',
+                '/famosos/shin-min-a']
+
+            startGame()
+            break
     }
 
 }
